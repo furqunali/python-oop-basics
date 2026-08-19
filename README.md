@@ -1,21 +1,26 @@
-# 🐍 OOP in Python — Classes & Objects (Intro)
+# Python OOP Basics
 
-> **your first class** · part of a hands-on **Python Object-Oriented Programming** learning series.
+A minimal, well-commented introduction to **object-oriented programming** in Python:
 
-## Concept
+- a **class** as a blueprint for objects
+- **class attributes** (shared) vs **instance attributes** (per object)
+- **instance methods**
+- a readable string representation via `__str__`
 
-The very first step into object-oriented Python: declaring a class and instantiating it.
-
-## Run it
+## Run
 
 ```bash
-python *.py
+python oop_basics.py
 ```
 
-## The series
+## Example output
 
-This repo is one lesson in a step-by-step OOP journey — from classes & objects through constructors, encapsulation, inheritance, `super()`, and decorators like `@classmethod` and `@property`. Browse the other `Oop*` repos on my profile to follow the full path.
+```
+Ayesha — average 87.7
+  School: Governor House
+Bilal — average 75.0
+  School: Governor House
+```
 
 ---
-
 *Part of [Furqan Ali](https://github.com/furqunali)'s portfolio — AI & Intelligent Automation / Digital Transformation.*
